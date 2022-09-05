@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #4DA0B0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.gameContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 32px;
+    width: 80%;
+    height: 350px;
+    background: #1e3c72;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    color: white;
+
+}
+.gameBoard{
+    width: 50%;
+    flex-grow: 1;
+    height: 100%;
+    border: 1px solid red;
+    background-color: black;
+    position: relative;
+}
+.gameControlMenu{
+    width: 50%;
+    flex-grow: 1;
+    height: 100%;
+    border: 1px solid rgb(94, 143, 15);
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gameState{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gameMode{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gameScore{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gameScoreTable{
+    width: 100%;
+    flex-grow: 1;
+    height: 100%;
+}
