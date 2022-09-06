@@ -94,11 +94,6 @@ function createInterval(time = 1000) {
       return;
     }
   }, time);
-  if (isGameStart) {
-    worker();
-    return;
-  }
-  clearInterval(worker);
 }
 
 function createBubble() {

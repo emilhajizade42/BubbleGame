@@ -76,6 +76,12 @@ body{
     justify-content: space-evenly;
     border: 2px solid red;
 }
+.gameScoreTable div:nth-child(even){
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(177, 208, 37);
+}
 button{
     padding: 8px 16px;
     cursor: pointer;
